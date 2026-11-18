@@ -72,7 +72,7 @@ timeline
 
 | Repo | What it shows | Status |
 |---|---|---|
-| RevOps-Portfolio (coming next) | Lead gen, CRM and systems architecture, KPI dashboards, channel sales, P&L | In progress |
+| [RevOps-Portfolio](https://github.com/rbanola1/RevOps-Portfolio) | KPI dashboards, CRM and lead scoring, lead gen, channel sales, systems architecture, P&L | Project 01 live, more coming |
 | GTM-Strategy (coming next) | Outbound GTM engine, plays, signal model, tool stack | In progress |
 | [SixSigma_Green_Belt](https://github.com/rbanola1/SixSigma_Green_Belt) | Green Belt project, US refractory products | Complete |
 
