@@ -68,30 +68,70 @@ timeline
 | Analytics | KPI frameworks, dashboards, data quality monitoring | Power BI, Alteryx, Python, SQL |
 | Quality | Process improvement | Six Sigma Green Belt |
 
-## Repositories
+## Projects
 
-| Repo | What it shows | Status |
+### [RevOps-Portfolio](https://github.com/rbanola1/RevOps-Portfolio): revenue operations
+| # | Project | What it shows |
 |---|---|---|
-| [RevOps-Portfolio](https://github.com/rbanola1/RevOps-Portfolio) | KPI dashboards, CRM and lead scoring, lead gen, channel sales, systems architecture, P&L | Project 01 live, more coming |
-| [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy) | Signal-based outbound GTM engine, ICP, scoring, routing, guardrails | Project 01 live, more coming |
-| [SixSigma_Green_Belt](https://github.com/rbanola1/SixSigma_Green_Belt) | Green Belt project, US refractory products | Complete |
+| 01 | [Sales KPI dashboard](https://github.com/rbanola1/RevOps-Portfolio/tree/main/01-sales-kpi-dashboard) | Executive and weekly team reporting, KPI definitions, funnel and forecast views |
+| 02 | [CRM cleanup, segmentation and scoring](https://github.com/rbanola1/RevOps-Portfolio/tree/main/02-crm-cleanup-and-scoring) | Marketing-tier audit, clean segment field, lead score with decay |
+| 03 | [Lead generation plan](https://github.com/rbanola1/RevOps-Portfolio/tree/main/03-lead-gen-plan) | Reverse-funnel revenue model, channel ROI, plan versus actual |
+| 04 | [Channel sales](https://github.com/rbanola1/RevOps-Portfolio/tree/main/04-channel-sales) | Distributor scorecard, marketplace feeds and duplicate checks, channel economics |
+| 05 | [Shipping cost optimization](https://github.com/rbanola1/RevOps-Portfolio/tree/main/05-shipping-cost-simulation) | Monte Carlo pricing analysis and recommendation |
+| 06 | [Service Hub, phone lines and AI support agents](https://github.com/rbanola1/RevOps-Portfolio/tree/main/06-service-hub-and-support-agents) | Ticketing, SLAs, phone menu, refund process, loop guardrails, AI triage |
+| 07 | [Order-to-cash architecture](https://github.com/rbanola1/RevOps-Portfolio/tree/main/07-order-to-cash-architecture) | System map, data ownership, reconciliation |
+| 08 | [Budget, forecast and P&L](https://github.com/rbanola1/RevOps-Portfolio/tree/main/08-budget-forecast-pnl) | Variance analysis, driver-based forecast, cash flow, scenarios |
+| 09 | [Lead ownership and the warm-lead model](https://github.com/rbanola1/RevOps-Portfolio/tree/main/09-sales-model-and-lead-ownership) | Territory rules, research-first check, association labels |
 
-## How the work fits together
+### [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy): go-to-market engine
+| # | Project | What it shows |
+|---|---|---|
+| 01 | [Signal-based outbound GTM engine](https://github.com/rbanola1/GTM-Strategy/tree/main/01-outbound-gtm-engine) | Three-engine architecture, fit x intent routing, guardrails |
+| 02 | [Lead scoring redesign](https://github.com/rbanola1/GTM-Strategy/tree/main/02-lead-scoring-redesign) | Back-tested score and lifecycle definitions |
+| 03 | [ICP, tiers and nurture](https://github.com/rbanola1/GTM-Strategy/tree/main/03-icp-and-nurture) | ICP cards from won deals, account tiers, nurture tracks |
+| 04 | [Net-new lead generation pilot](https://github.com/rbanola1/GTM-Strategy/tree/main/04-net-new-lead-gen-pilot) | Suppress-first, tier-first enrichment, cost control, reply forecast |
+| 05 | [Sequence discipline](https://github.com/rbanola1/GTM-Strategy/tree/main/05-sequence-discipline) | Pacing, stop rule, targeted versus bulk |
+| 06 | [GTM tool stack](https://github.com/rbanola1/GTM-Strategy/tree/main/06-tool-stack) | Weighted evaluation and stage-gated spend |
+
+### [SixSigma_Green_Belt](https://github.com/rbanola1/SixSigma_Green_Belt)
+Green Belt project on US refractory products.
+
+## How the work fits together: one GTM engine, two routes to market
 
 ```mermaid
-flowchart LR
-    A[Market and ICP] --> B[Lead gen and outbound]
-    B --> C[CRM and lifecycle]
-    C --> D[Sales process and forecast]
-    D --> E[Order to cash]
-    E --> F[Support and feedback]
-    F --> A
-    C --> G[KPI dashboards]
-    D --> G
-    E --> H[P and L and planning]
-    G --> H
-    I[Channel partners] --> D
+flowchart TB
+    subgraph ENG[GTM engine shared by both routes]
+      direction LR
+      A[ICP and account tiers] --> B[Signals and sourcing]
+      B --> C[Suppress, enrich, verify]
+      C --> D[Fit x intent score and routing]
+    end
+    D --> DIR
+    D --> CH
+    subgraph DIR[Direct motion]
+      direction LR
+      D1[Paced outbound sequences] --> D4[Meetings and deals]
+      D2[Inbound router and inside-sales warm-up] --> D4
+      D3[Product nurture tracks] --> D2
+    end
+    subgraph CH[Channel motion: separate go-to-market]
+      direction LR
+      C1[Distributor scorecard and agreements] --> C4[Partner orders]
+      C2[Product master and marketplace feeds] --> C3[Listing QA: duplicates and discrepancies]
+      C3 --> C4
+    end
+    D4 --> O2C[Order to cash: store, ERP, accounting]
+    C4 --> O2C
+    O2C --> SUP[Service desk and phone: tickets, SLAs, AI triage]
+    CRM[(CRM: single source of truth)] --- ENG
+    CRM --- DIR
+    CRM --- CH
+    O2C --> KPI[KPI dashboards, budget, forecast, P and L]
+    SUP --> KPI
+    KPI -.->|re-weight score, re-plan channels| ENG
 ```
+
+Direct and channel are separate motions with their own targeting, economics and onboarding. They share the same data foundation and meet again at order to cash, support and reporting.
 
 ## Contact
 
