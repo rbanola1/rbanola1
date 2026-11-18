@@ -99,39 +99,20 @@ Green Belt project on US refractory products.
 ## How the work fits together: one GTM engine, two routes to market
 
 ```mermaid
-flowchart TB
-    subgraph ENG[GTM engine shared by both routes]
-      direction LR
-      A[ICP and account tiers] --> B[Signals and sourcing]
-      B --> C[Suppress, enrich, verify]
-      C --> D[Fit x intent score and routing]
-    end
-    D --> DIR
-    D --> CH
-    subgraph DIR[Direct motion]
-      direction LR
-      D1[Paced outbound sequences] --> D4[Meetings and deals]
-      D2[Inbound router and inside-sales warm-up] --> D4
-      D3[Product nurture tracks] --> D2
-    end
-    subgraph CH[Channel motion: separate go-to-market]
-      direction LR
-      C1[Distributor scorecard and agreements] --> C4[Partner orders]
-      C2[Product master and marketplace feeds] --> C3[Listing QA: duplicates and discrepancies]
-      C3 --> C4
-    end
-    D4 --> O2C[Order to cash: store, ERP, accounting]
-    C4 --> O2C
-    O2C --> SUP[Service desk and phone: tickets, SLAs, AI triage]
-    CRM[(CRM: single source of truth)] --- ENG
-    CRM --- DIR
-    CRM --- CH
-    O2C --> KPI[KPI dashboards, budget, forecast, P and L]
-    SUP --> KPI
-    KPI -.->|re-weight score, re-plan channels| ENG
+flowchart LR
+    A[ICP and account tiers] --> B[Signals and sourcing]
+    B --> C[Suppress, enrich, verify, score and route]
+    C --> D[Direct motion<br/>paced outbound, inbound router,<br/>inside-sales warm-up, nurture]
+    C --> E[Channel motion<br/>distributors and B2B marketplaces,<br/>its own targeting and economics]
+    D --> F[Order to cash<br/>store, ERP, accounting]
+    E --> F
+    F --> G[Service desk and phone<br/>tickets, SLAs, AI triage]
+    F --> H[KPI dashboards, budget,<br/>forecast and P and L]
+    G --> H
+    H -.->|re-weight scoring, re-plan channels| A
 ```
 
-Direct and channel are separate motions with their own targeting, economics and onboarding. They share the same data foundation and meet again at order to cash, support and reporting.
+Direct and channel are separate go-to-market motions. They share one data foundation (a single CRM as the source of truth, with agreed ownership of every field) and meet again at order to cash, support and reporting.
 
 ## Contact
 
