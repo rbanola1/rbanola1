@@ -7,6 +7,21 @@ I build the systems behind revenue: CRM architecture, lead gen, outbound GTM, ch
 
 ---
 
+## Highlights
+
+Illustrative results from the synthetic projects below. Each links to the full write-up, diagrams, data and a script that regenerates it.
+
+| Area | What it shows | Headline result |
+|---|---|---|
+| Lead scoring | Engagement-only score replaced by fit + engagement + intent, back-tested | MQL buy rate 3.3% to 11.2%; ranking power (AUC) 0.58 to 0.73 |
+| CRM data | Marketing-tier cleanup and a clean segment field | Tier 94% full to 58%; classified contacts 55% to 88% |
+| Service desk | Ticketing, phone menu, SLAs, AI triage, loop guardrails | First-response SLA met 29% to 88%; 92% of tickets auto-routed at 99% accuracy |
+| Systems | Six-layer lead-to-cash architecture with a 12-connection register | Deal-won to invoice 7.8 to 4.4 days; order exceptions 19% to 5% |
+| Pricing | Four-method shipping cost analysis with Monte Carlo | All methods agree near $211 a shipment against a $100 charge; zone tiers cut below-cost shipments 55% to 33% |
+| Channel | Distributor scorecard, marketplace feeds, duplicate and discrepancy checks | Channel share planned from 2% to 21% of revenue; 5 listing errors caught before launch |
+| Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
+| Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
+
 ## Experience map
 
 ```mermaid
@@ -116,4 +131,4 @@ Direct and channel are separate go-to-market motions. They share one data founda
 
 ## Contact
 
-Cleveland, OH · rbanola1@gmail.com · open to RevOps, Commercial Operations and GTM roles.
+Cleveland, OH · [LinkedIn](https://www.linkedin.com/in/rishabh-banola/) · rbanola1@gmail.com · open to RevOps, Commercial Operations and GTM roles.
