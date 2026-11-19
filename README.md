@@ -19,6 +19,7 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Systems | Six-layer lead-to-cash architecture with a 12-connection register | Deal-won to invoice 7.8 to 4.4 days; order exceptions 19% to 5% |
 | Pricing | Four-method shipping cost analysis with Monte Carlo | All methods agree near $211 a shipment against a $100 charge; zone tiers cut below-cost shipments 55% to 33% |
 | Channel | Distributor scorecard, marketplace feeds, duplicate and discrepancy checks | Channel share planned from 2% to 21% of revenue; 5 listing errors caught before launch |
+| Voice of customer | Capture standard and post-event dashboard across six events | Stem cell summit turned 52% of VOC entries into leads and 15% into deals; webinars 20% and 3% |
 | Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
 | Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
 
@@ -97,6 +98,7 @@ timeline
 | 07 | [Commercial systems architecture: lead to cash](https://github.com/rbanola1/RevOps-Portfolio/tree/main/07-commercial-systems-architecture) | Six-layer system map, integration register, data ownership, channel order path, reconciliation |
 | 08 | [Budget, forecast and P&L](https://github.com/rbanola1/RevOps-Portfolio/tree/main/08-budget-forecast-pnl) | Variance analysis, driver-based forecast, cash flow, scenarios |
 | 09 | [Lead ownership and the warm-lead model](https://github.com/rbanola1/RevOps-Portfolio/tree/main/09-sales-model-and-lead-ownership) | Territory rules, research-first check, association labels |
+| 10 | [Voice of customer program](https://github.com/rbanola1/RevOps-Portfolio/tree/main/10-voice-of-customer-program) | Feedback capture standard, tagging, post-trade-show dashboard, action loop |
 
 ### [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy): go-to-market engine
 | # | Project | What it shows |
