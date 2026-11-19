@@ -79,7 +79,7 @@ timeline
 | 04 | [Channel sales](https://github.com/rbanola1/RevOps-Portfolio/tree/main/04-channel-sales) | Distributor scorecard, marketplace feeds and duplicate checks, channel economics |
 | 05 | [Shipping cost optimization](https://github.com/rbanola1/RevOps-Portfolio/tree/main/05-shipping-cost-simulation) | Monte Carlo pricing analysis and recommendation |
 | 06 | [Service Hub, phone lines and AI support agents](https://github.com/rbanola1/RevOps-Portfolio/tree/main/06-service-hub-and-support-agents) | Ticketing, SLAs, phone menu, refund process, loop guardrails, AI triage |
-| 07 | [Order-to-cash architecture](https://github.com/rbanola1/RevOps-Portfolio/tree/main/07-order-to-cash-architecture) | System map, data ownership, reconciliation |
+| 07 | [Commercial systems architecture: lead to cash](https://github.com/rbanola1/RevOps-Portfolio/tree/main/07-commercial-systems-architecture) | Six-layer system map, integration register, data ownership, channel order path, reconciliation |
 | 08 | [Budget, forecast and P&L](https://github.com/rbanola1/RevOps-Portfolio/tree/main/08-budget-forecast-pnl) | Variance analysis, driver-based forecast, cash flow, scenarios |
 | 09 | [Lead ownership and the warm-lead model](https://github.com/rbanola1/RevOps-Portfolio/tree/main/09-sales-model-and-lead-ownership) | Territory rules, research-first check, association labels |
 
