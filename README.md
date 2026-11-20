@@ -30,6 +30,11 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
 | Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
 
+## How I work
+- **Six Sigma (DMAIC)** for funnel and process improvement: define, measure, analyse, improve, control. See the [sales funnel and its factors](https://github.com/rbanola1/RevOps-Portfolio/blob/main/11-pipeline-health-analysis/docs/sales_funnel_and_factors.md) and the [Green Belt project](https://github.com/rbanola1/SixSigma_Green_Belt).
+- **STAR stories:** every project README opens with Starting point, Situation, Task, Action and Result.
+- **Built from scratch:** most systems here started with no usable history, so first versions used labelled assumptions that were replaced by actual data as it accumulated.
+
 ## Experience map
 
 ```mermaid
