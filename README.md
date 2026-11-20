@@ -3,7 +3,7 @@
 MBA (STEM, Business Analytics) · 8+ years across biotech, SaaS, EdTech, healthcare, manufacturing and infrastructure.
 I build the systems behind revenue: CRM architecture, lead gen, outbound GTM, channel sales, forecasting, KPI reporting and P&L.
 
-> **All data in these repositories is synthetic.** The fictional company is **Aurelis Life Sciences**. Real employers, customers, prices and contacts never appear here. Only the methods, structures and logic come from real work.
+> **All data in these repositories is synthetic.** The fictional company is **RB Tech**. Real employers, customers, prices and contacts never appear here. Only the methods, structures and logic come from real work.
 
 ---
 
