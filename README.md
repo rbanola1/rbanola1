@@ -24,6 +24,8 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Events | Full-cost trade show model with repeat, change or drop rule | Best shows return $1.7 to $2.0 gross profit per $1; weakest $0.4 to $0.7 |
 | Data governance | CRM migration with reconciliation, quality score and tested backups | Data-quality score 69% to 92%; 250 silently missing records caught and reloaded |
 | Partners | Onboarding steps, partner scorecard and cross-partner catalog audit | 27% of listings mismatched the master; government marketplace onboarding about twice as long |
+| Territory and pay | Balanced territories, international routing, quota blend, compensation design | Territory gap 40% to under 1%; simulated cost of sales about 15% |
+| Operating system | Goal tracker, RACI with one owner per process, KPI dictionary | 12 of 12 processes with a single accountable role; one source of truth per KPI |
 | Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
 | Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
 
@@ -107,6 +109,8 @@ timeline
 | 12 | [Trade show budget and return](https://github.com/rbanola1/RevOps-Portfolio/tree/main/12-tradeshow-budget-and-return) | Full event cost, cost per lead, gross-profit return, repeat or drop scorecard |
 | 13 | [CRM migration and data governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/13-crm-migration-and-data-governance) | Migration plan, reconciliation, quality score, ownership rules, backup and restore |
 | 14 | [Partner onboarding and pricing governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/14-partner-onboarding-and-pricing-governance) | Onboarding steps, partner scorecard, master pricing sheet, catalog audit |
+| 15 | [Territory, quota and compensation plan](https://github.com/rbanola1/RevOps-Portfolio/tree/main/15-territory-and-quota-design) | Potential-balanced territories, international lead routing, quota blend, pay plan |
+| 16 | [Goal tracker, RACI and KPI dictionary](https://github.com/rbanola1/RevOps-Portfolio/tree/main/16-goals-raci-and-kpi-dictionary) | Goal-to-project tracker, one accountable role per process, KPI definitions and executive pack |
 
 ### [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy): go-to-market engine
 | # | Project | What it shows |
