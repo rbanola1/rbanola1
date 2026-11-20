@@ -20,6 +20,10 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Pricing | Four-method shipping cost analysis with Monte Carlo | All methods agree near $211 a shipment against a $100 charge; zone tiers cut below-cost shipments 55% to 33% |
 | Channel | Distributor scorecard, marketplace feeds, duplicate and discrepancy checks | Channel share planned from 2% to 21% of revenue; 5 listing errors caught before launch |
 | Voice of customer | Capture standard and post-event dashboard across six events | Stem cell summit turned 52% of VOC entries into leads and 15% into deals; webinars 20% and 3% |
+| Pipeline | Stage conversion, ageing, coverage and a CRM-as-a-factory utilisation model | Coverage 2.4x against a 3x target; only 40% of CRM records ever worked, 2% won |
+| Events | Full-cost trade show model with repeat, change or drop rule | Best shows return $1.7 to $2.0 gross profit per $1; weakest $0.4 to $0.7 |
+| Data governance | CRM migration with reconciliation, quality score and tested backups | Data-quality score 69% to 92%; 250 silently missing records caught and reloaded |
+| Partners | Onboarding steps, partner scorecard and cross-partner catalog audit | 27% of listings mismatched the master; government marketplace onboarding about twice as long |
 | Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
 | Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
 
@@ -99,6 +103,10 @@ timeline
 | 08 | [Budget, forecast and P&L](https://github.com/rbanola1/RevOps-Portfolio/tree/main/08-budget-forecast-pnl) | Variance analysis, driver-based forecast, cash flow, scenarios |
 | 09 | [Lead ownership and the warm-lead model](https://github.com/rbanola1/RevOps-Portfolio/tree/main/09-sales-model-and-lead-ownership) | Territory rules, research-first check, association labels |
 | 10 | [Voice of customer program](https://github.com/rbanola1/RevOps-Portfolio/tree/main/10-voice-of-customer-program) | Feedback capture standard, tagging, post-trade-show dashboard, action loop |
+| 11 | [Pipeline health and the CRM as a factory](https://github.com/rbanola1/RevOps-Portfolio/tree/main/11-pipeline-health-analysis) | Stage conversion, coverage, stalled deals, idle-inventory model, weekly review |
+| 12 | [Trade show budget and return](https://github.com/rbanola1/RevOps-Portfolio/tree/main/12-tradeshow-budget-and-return) | Full event cost, cost per lead, gross-profit return, repeat or drop scorecard |
+| 13 | [CRM migration and data governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/13-crm-migration-and-data-governance) | Migration plan, reconciliation, quality score, ownership rules, backup and restore |
+| 14 | [Partner onboarding and pricing governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/14-partner-onboarding-and-pricing-governance) | Onboarding steps, partner scorecard, master pricing sheet, catalog audit |
 
 ### [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy): go-to-market engine
 | # | Project | What it shows |
