@@ -111,6 +111,7 @@ timeline
 | 14 | [Partner onboarding and pricing governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/14-partner-onboarding-and-pricing-governance) | Onboarding steps, partner scorecard, master pricing sheet, catalog audit |
 | 15 | [Territory, quota and compensation plan](https://github.com/rbanola1/RevOps-Portfolio/tree/main/15-territory-and-quota-design) | Potential-balanced territories, international lead routing, quota blend, pay plan |
 | 16 | [Goal tracker, RACI and KPI dictionary](https://github.com/rbanola1/RevOps-Portfolio/tree/main/16-goals-raci-and-kpi-dictionary) | Goal-to-project tracker, one accountable role per process, KPI definitions and executive pack |
+| 17 | [Order fulfillment and ERP rollout](https://github.com/rbanola1/RevOps-Portfolio/tree/main/17-order-fulfillment-and-erp-rollout) | Order-email intake, PO SOP, web-store integration, trained backup operator, outage recovery lessons |
 
 ### [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy): go-to-market engine
 | # | Project | What it shows |
