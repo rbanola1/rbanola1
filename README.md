@@ -112,6 +112,7 @@ timeline
 | 15 | [Territory, quota and compensation plan](https://github.com/rbanola1/RevOps-Portfolio/tree/main/15-territory-and-quota-design) | Potential-balanced territories, international lead routing, quota blend, pay plan |
 | 16 | [Goal tracker, RACI and KPI dictionary](https://github.com/rbanola1/RevOps-Portfolio/tree/main/16-goals-raci-and-kpi-dictionary) | Goal-to-project tracker, one accountable role per process, KPI definitions and executive pack |
 | 17 | [Order fulfillment and ERP rollout](https://github.com/rbanola1/RevOps-Portfolio/tree/main/17-order-fulfillment-and-erp-rollout) | Order-email intake, PO SOP, web-store integration, trained backup operator, outage recovery lessons |
+| 18 | [AI-assisted scientific prospecting over MCP](https://github.com/rbanola1/RevOps-Portfolio/tree/main/18-ai-scientific-prospecting-mcp) | Lead database + Claude over MCP: signal search, CRM suppression, tiers, email gap-fill and bulk merge, reviewed outreach |
 
 ### [GTM-Strategy](https://github.com/rbanola1/GTM-Strategy): go-to-market engine
 | # | Project | What it shows |
