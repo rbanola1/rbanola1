@@ -14,21 +14,32 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Area | What it shows | Headline result |
 |---|---|---|
 | Lead scoring | Engagement-only score replaced by fit + engagement + intent, back-tested | MQL buy rate 3.3% to 11.2%; ranking power (AUC) 0.58 to 0.73 |
-| CRM data | Marketing-tier cleanup and a clean segment field | Tier 94% full to 57%; classified contacts 55% to 88% |
-| Service desk | Ticketing, phone menu, SLAs, AI triage, loop guardrails | First-response SLA met 27% to 89%; 93% of tickets auto-routed at 99% accuracy |
-| Systems | Six-layer lead-to-cash architecture with a 12-connection register | Deal-won to invoice 7.8 to 4.5 days; order exceptions 16% to 3% |
+| CRM data | Marketing-tier cleanup and a clean segment field | Tier 94% full to 58%; classified contacts 55% to 88% |
+| Service desk | Ticketing, phone menu, SLAs, AI triage, loop guardrails | First-response SLA met 29% to 88%; 92% of tickets auto-routed at 99% accuracy |
+| Systems | Six-layer lead-to-cash architecture with a 12-connection register | Deal-won to invoice 7.8 to 4.4 days; order exceptions 19% to 5% |
 | Pricing | Four-method shipping cost analysis with Monte Carlo | All methods agree near $211 a shipment against a $100 charge; zone tiers cut below-cost shipments 55% to 33% |
 | Channel | Distributor scorecard, marketplace feeds, duplicate and discrepancy checks | Channel share planned from 2% to 21% of revenue; every listing verified against the master before launch |
 | Voice of customer | Capture standard and post-event dashboard across six events | Stem cell summit turned 52% of VOC entries into leads and 15% into deals; webinars 20% and 3% |
-| Pipeline | Stage conversion, ageing, coverage and a CRM-as-a-factory utilisation model | Coverage 2.4x against a 3x target; only 40% of CRM records ever worked, 2% won |
+| Pipeline | Stage conversion, ageing, coverage and a CRM-as-a-factory utilisation model | Coverage 2.4x against a 3x target; only 41% of CRM records ever worked, 2% won |
 | Events | Full-cost trade show model with repeat, change or drop rule | Best shows return $1.7 to $2.0 gross profit per $1; weakest $0.4 to $0.7 |
-| Data governance | CRM migration with reconciliation, quality score and tested backups | Data-quality score 69% to 92%; 58 silently missing records caught and reloaded |
+| Data governance | CRM migration with reconciliation, quality score and tested backups | Data-quality score 69% to 92%; 312 silently missing records caught and reloaded |
 | Partners | Onboarding steps, partner scorecard and cross-partner catalog audit | marketplace onboarding about half the time of distributors |
 | Territory and pay | Balanced territories, international routing, quota blend, compensation design | Territory gap 40% to under 1%; simulated cost of sales about 15% |
 | Operating system | Goal tracker, RACI with one owner per process, KPI dictionary | 12 of 12 processes with a single accountable role; one source of truth per KPI |
 | Forecasting | Sales scenarios by forecast category (commit, best case, pipeline) and product demand with stock cover | Two simple forecasts instead of many financial models: scenarios for leaders, reorder flags for operations |
 | Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
 | Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
+
+## The company in this portfolio (RB Tech)
+| Item | Value used throughout |
+|---|---|
+| Annual revenue | About $3.8M plan, about $3.2M forecast |
+| Catalogue products | About $1.7M a year, low ticket (about $2,000 per order, range $100 to $12,000) |
+| Custom projects | About $2.1M a year, high ticket (about 14 projects at about $150,000, billed as a deposit plus milestones) |
+| Free samples | About 220 a year, no revenue, tracked separately |
+| CRM pipelines | Three separate pipelines: catalogue products, custom projects and free samples |
+| Team and data | 4 reps, about 60,000 CRM contacts, about 1,500 orders and 2,400 support tickets a year |
+All data is synthetic, and every project uses these same figures.
 
 ## How I work
 - **Six Sigma (DMAIC)** for funnel and process improvement: define, measure, analyse, improve, control. See the [sales funnel and its factors](https://github.com/rbanola1/RevOps-Portfolio/blob/main/11-pipeline-health-analysis/docs/sales_funnel_and_factors.md) and the [Green Belt project](https://github.com/rbanola1/SixSigma_Green_Belt).
