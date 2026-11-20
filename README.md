@@ -23,7 +23,7 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Pipeline | Stage conversion, ageing, coverage and a CRM-as-a-factory utilisation model | Coverage 2.4x against a 3x target; only 40% of CRM records ever worked, 2% won |
 | Events | Full-cost trade show model with repeat, change or drop rule | Best shows return $1.7 to $2.0 gross profit per $1; weakest $0.4 to $0.7 |
 | Data governance | CRM migration with reconciliation, quality score and tested backups | Data-quality score 69% to 92%; 58 silently missing records caught and reloaded |
-| Partners | Onboarding steps, partner scorecard and cross-partner catalog audit | government marketplace onboarding about twice as long |
+| Partners | Onboarding steps, partner scorecard and cross-partner catalog audit | marketplace onboarding about half the time of distributors |
 | Territory and pay | Balanced territories, international routing, quota blend, compensation design | Territory gap 40% to under 1%; simulated cost of sales about 15% |
 | Operating system | Goal tracker, RACI with one owner per process, KPI dictionary | 12 of 12 processes with a single accountable role; one source of truth per KPI |
 | Forecasting | Five forecasts: inbound leads, channel revenue plan, revenue recognition, product and demand, with equations and accuracy tracking | Each forecast answers one question with one owner and one measure of error |
@@ -109,7 +109,7 @@ timeline
 | 11 | [Pipeline health and the CRM as a factory](https://github.com/rbanola1/RevOps-Portfolio/tree/main/11-pipeline-health-analysis) | Stage conversion, coverage, stalled deals, idle-inventory model, weekly review |
 | 12 | [Trade show budget and return](https://github.com/rbanola1/RevOps-Portfolio/tree/main/12-tradeshow-budget-and-return) | Full event cost, cost per lead, gross-profit return, repeat or drop scorecard |
 | 13 | [CRM migration and data governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/13-crm-migration-and-data-governance) | Migration plan, reconciliation, quality score, ownership rules, backup and restore |
-| 14 | [Partner onboarding and pricing governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/14-partner-onboarding-and-pricing-governance) | Onboarding steps, partner scorecard, master pricing sheet, catalog audit |
+| 14 | [Partner onboarding and pricing governance](https://github.com/rbanola1/RevOps-Portfolio/tree/main/14-partner-onboarding-and-pricing-governance) | Eight-stage distributor journey, partner scorecard, master pricing sheet, catalog check |
 | 15 | [Territory, quota and compensation plan](https://github.com/rbanola1/RevOps-Portfolio/tree/main/15-territory-and-quota-design) | Potential-balanced territories, international lead routing, quota blend, pay plan |
 | 16 | [Goal tracker, RACI and KPI dictionary](https://github.com/rbanola1/RevOps-Portfolio/tree/main/16-goals-raci-and-kpi-dictionary) | Goal-to-project tracker, one accountable role per process, KPI definitions and executive pack |
 | 17 | [Order fulfillment and ERP rollout](https://github.com/rbanola1/RevOps-Portfolio/tree/main/17-order-fulfillment-and-erp-rollout) | Order-email intake, PO SOP, web-store integration, trained backup operator, outage recovery lessons |
