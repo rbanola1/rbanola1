@@ -26,7 +26,7 @@ Illustrative results from the synthetic projects below. Each links to the full w
 | Partners | Onboarding steps, partner scorecard and cross-partner catalog audit | marketplace onboarding about half the time of distributors |
 | Territory and pay | Balanced territories, international routing, quota blend, compensation design | Territory gap 40% to under 1%; simulated cost of sales about 15% |
 | Operating system | Goal tracker, RACI with one owner per process, KPI dictionary | 12 of 12 processes with a single accountable role; one source of truth per KPI |
-| Forecasting | Five forecasts: inbound leads, channel revenue plan, revenue recognition, product and demand, with equations and accuracy tracking | Each forecast answers one question with one owner and one measure of error |
+| Forecasting | Sales scenarios by forecast category (commit, best case, pipeline) and product demand with stock cover | Two simple forecasts instead of many financial models: scenarios for leaders, reorder flags for operations |
 | Planning | Reverse-funnel lead plan, budget, driver-based forecast, cash flow | Plan versus actual by channel; scenarios from -15% close rate to +10% pipeline |
 | Outbound | Suppress-first lead pilot and send discipline | 473 usable leads vs 128 for the same budget; 38 sends per reply vs 947 |
 
