@@ -107,6 +107,11 @@ timeline
 | Analytics | KPI frameworks, dashboards, data quality monitoring | Power BI, Alteryx, Python, SQL |
 | Quality | Process improvement | Six Sigma Green Belt |
 
+## Certifications
+
+- [HubSpot Revenue Operations Certification](https://app.hubspot.com/academy/achievements/fh840wh9/en/1/rishabh-banola/revenue-operations)
+- Six Sigma Green Belt (see [project](https://github.com/rbanola1/SixSigma_Green_Belt))
+
 ## Projects
 
 ### [RevOps-Portfolio](https://github.com/rbanola1/RevOps-Portfolio): revenue operations
